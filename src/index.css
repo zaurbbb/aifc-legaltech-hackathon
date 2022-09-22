@@ -55,6 +55,7 @@ html {
 
 body {
   font-family: "EuclidCircularALight", sans-serif;
+  padding: 0 1rem 1rem 1rem;
 }
 
 a, a:visited {

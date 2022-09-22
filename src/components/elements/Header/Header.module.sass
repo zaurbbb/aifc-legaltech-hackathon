@@ -4,27 +4,28 @@
   @include grid(1fr 1.2fr 1.2fr, auto, 0)
   height: 3rem
   align-items: center
+  background: #6495ED
   letter-spacing: 2px
   div, nav
     @include flex(row, 0)
-
   h4
     font-size: $fs4
     font-family: $ecaRegular
     font-weight: normal
 
 
-.Hamburger
-  padding: 0 0 0 1rem
-
-.Navbar, .Info
+.Navbar
   @include flexAlignment(center, space-evenly, center)
+
+.Info
+  @include flexAlignment(center, flex-end, center)
 
 .Avatar
   border: 1px solid #000000
   border-radius: 24px
   width: 40px
   height: 40px
+  margin: 0 1rem
 
 .Search
   width: 50px

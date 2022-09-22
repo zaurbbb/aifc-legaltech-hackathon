@@ -5,6 +5,7 @@
   gap: 0;
   height: 3rem;
   align-items: center;
+  background: #6495ED;
   letter-spacing: 2px;
 }
 .Block div, .Block nav {
@@ -18,13 +19,15 @@
   font-weight: normal;
 }
 
-.Hamburger {
-  padding: 0 0 0 1rem;
-}
-
-.Navbar, .Info {
+.Navbar {
   align-content: center;
   justify-content: space-evenly;
+  align-items: center;
+}
+
+.Info {
+  align-content: center;
+  justify-content: flex-end;
   align-items: center;
 }
 
@@ -33,6 +36,7 @@
   border-radius: 24px;
   width: 40px;
   height: 40px;
+  margin: 0 1rem;
 }
 
 .Search {

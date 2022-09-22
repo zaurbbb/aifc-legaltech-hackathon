@@ -16,16 +16,16 @@ const Header = () => {
                 <NavLink to="/protocolBook" className={navData => navData.isActive ? css.activeLink : css.inActiveLink}>
                     Results
                 </NavLink>
-                <NavLink to="/" className={navData => navData.isActive ? css.activeLink : css.inActiveLink}>
+                <NavLink to="/control" className={navData => navData.isActive ? css.activeLink : css.inActiveLink}>
                     Control
                 </NavLink>
             </div>
             <div className={css.Info}>
                 <h4>Berdibekov Zaur</h4>
                 <div className={css.Avatar}></div>
-                <h4 className={css.Search}>
+                <div className={css.Search}>
                     <img src={SearchIcon} alt=""/>
-                </h4>
+                </div>
             </div>
         </header>
     );
