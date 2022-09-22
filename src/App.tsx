@@ -4,7 +4,7 @@ import './App.css';
 
 import { Route, Routes, BrowserRouter } from 'react-router-dom';
 
-import MainPage from "./components/pages/MainPage/MainPage";
+import HomePage from "./components/pages/HomePage/HomePage";
 import Test from "./components/elements/Test";
 import Header from "./components/elements/Header/Header";
 import CreateMeeting from "./components/pages/CreateMeeting/CreateMeeting";
@@ -15,7 +15,7 @@ function App() {
     <BrowserRouter>
             <Header />
             <Routes>
-                <Route path="/" element={<MainPage />}/>
+                <Route path="/" element={<HomePage />}/>
                 <Route path="/schedule" element={<Test />}/>
                 <Route path="/createMeeting" element={<CreateMeeting />}/>
                 <Route path="/protocolBook" element={<Test />}/>

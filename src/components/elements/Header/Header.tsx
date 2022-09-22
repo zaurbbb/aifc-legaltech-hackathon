@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 
 import {NavLink} from "react-router-dom";
 
@@ -6,9 +6,16 @@ import SearchIcon from "./SearchIcon.svg"
 import css from "./Header.module.sass"
 
 const Header = () => {
+    const [count, setCount] = useState(0);
+
     return (
         <header className={css.Block}>
-            <div className={css.Hamburger}>h</div>
+            <div className={css.Hamburger}>
+                <img src="" alt="" onClick={() => setCount(count+1)}/>
+                <NavLink to="/">
+                    Egov ot 13labs
+                </NavLink>
+            </div>
             <div className={css.Navbar}>
                 <NavLink to="/schedule" className={navData => navData.isActive ? css.activeLink : css.inActiveLink}>
                     Meetings

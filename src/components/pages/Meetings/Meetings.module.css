@@ -1,0 +1,106 @@
+.Block {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.CardsBlock {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+  height: auto;
+}
+.CardsBlock h3, .CardsBlock h5 {
+  margin-bottom: 1rem;
+}
+.CardsBlock h5 {
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+.CardsBlock div {
+  min-height: 12rem;
+  position: relative;
+  border: none;
+  padding: 1rem;
+}
+.CardsBlock div:nth-child(1) {
+  grid-column: 1/10;
+  background: linear-gradient(267.16deg, #38A4E1 1.27%, rgba(56, 164, 225, 0.6) 97.4%);
+  border-radius: 45px;
+  color: #FFFFFF;
+}
+.CardsBlock div:nth-child(2) {
+  grid-column: 10/24;
+  background: linear-gradient(186.5deg, #FDFBFB 5.39%, rgba(232, 235, 237, 0.6) 95.38%);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 45px;
+}
+.CardsBlock div:nth-child(3) {
+  background: linear-gradient(177.19deg, #FFBFBF 92.09%, rgba(232, 235, 237, 0.6) 127.56%);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 45px;
+  grid-column: 1/8;
+}
+.CardsBlock div:nth-child(4) {
+  grid-column: 8/24;
+  background: linear-gradient(267.16deg, #38A4E1 1.27%, rgba(56, 164, 225, 0.6) 97.4%);
+  border-radius: 45px;
+  color: #FFFFFF;
+}
+
+.WhiteButton, .NextButton {
+  width: 4rem;
+  height: 1.5rem;
+  margin-right: 10px;
+  background: #FFFEFE;
+  border-radius: 23px;
+  border: none;
+  font-size: 0.6rem;
+  line-height: 25px;
+  letter-spacing: 0.1em;
+  color: #2C7CD9;
+  font-family: "EuclidCircularARegular", sans-serif;
+  margin-bottom: 1rem;
+}
+
+.RedButton {
+  width: 5rem;
+  height: 1.5rem;
+  margin-right: 10px;
+  background: #FD6667;
+  border-radius: 23px;
+  border: none;
+  font-size: 0.6rem;
+  line-height: 25px;
+  letter-spacing: 1px;
+  color: white;
+  font-family: "EuclidCircularARegular", sans-serif;
+  margin-bottom: 1rem;
+}
+
+.NextButton {
+  float: right;
+  width: 6rem !important;
+  position: absolute;
+  bottom: 0;
+  right: 15px;
+}
+
+.createButton {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(88.9deg, #38A4E1 4.71%, rgba(80, 150, 255, 0.6) 99.33%);
+  border-radius: 59px;
+  margin: 0 auto;
+  width: 325px;
+  height: 115px;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+}
+
+/*# sourceMappingURL=Meetings.module.css.map */
