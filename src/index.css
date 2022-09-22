@@ -1,0 +1,197 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "EuclidCircularABold";
+  src: local("GilroyBold"), url("./fonts/Euclid Circular A/Euclid Circular A Bold.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "EuclidCircularABoldItalic";
+  src: local("GilroyBold"), url("./fonts/Euclid Circular A/Euclid Circular A Bold Italic.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "EuclidCircularAItalic";
+  src: local("GilroyBold"), url("./fonts/Euclid Circular A/Euclid Circular A Italic.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "EuclidCircularALight";
+  src: local("GilroyBold"), url("./fonts/Euclid Circular A/Euclid Circular A Light.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "EuclidCircularALightItalic";
+  src: local("GilroyBold"), url("./fonts/Euclid Circular A/Euclid Circular A Light Italic.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "EuclidCircularAMedium";
+  src: local("GilroyBold"), url("./fonts/Euclid Circular A/Euclid Circular A Medium.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "EuclidCircularAMediumItalic";
+  src: local("GilroyBold"), url("./fonts/Euclid Circular A/Euclid Circular A Medium Italic.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "EuclidCircularARegular";
+  src: local("GilroyBold"), url("./fonts/Euclid Circular A/Euclid Circular A Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "EuclidCircularASemibold";
+  src: local("GilroyBold"), url("./fonts/Euclid Circular A/Euclid Circular A SemiBold.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "EuclidCircularASemiboldItalic";
+  src: local("GilroyBold"), url("./fonts/Euclid Circular A/Euclid Circular A SemiBold Italic.ttf") format("truetype");
+  font-weight: normal;
+}
+html {
+  font-size: 25px;
+}
+
+body {
+  font-family: "EuclidCircularALight", sans-serif;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+::-webkit-input-placeholder {
+  text-align: left;
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 20px;
+  }
+}
+@media (max-width: 380px) {
+  html {
+    font-size: 16px;
+  }
+}
+/* Указываем box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Упрощаем работу с изображениями */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Указываем понятную периодичность в потоке данных у article*/
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Наследуем шрифты для инпутов и кнопок */
+input,
+button,
+textarea,
+select {
+  font-family: inherit;
+}
+
+/* Удаляем все анимации и переходы для людей, которые предпочитай их не использовать */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+/* width of webkit */
+::-webkit-scrollbar {
+  opacity: 0.5;
+  width: 5px;
+}
+
+/* background of weblit's place */
+::-webkit-scrollbar-track {
+  opacity: 0.5;
+  background: #f1f1f1;
+}
+
+/* if don't mouse on to webkit */
+::-webkit-scrollbar-thumb {
+  background: #C0C0C0;
+}
+
+/* hover effect*/
+::-webkit-scrollbar-thumb:hover {
+  opacity: 1;
+  background: #6495ED;
+}
+
+/*# sourceMappingURL=index.css.map */
