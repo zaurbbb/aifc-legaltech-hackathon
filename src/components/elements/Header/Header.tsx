@@ -7,17 +7,20 @@ import css from "./Header.module.sass"
 import api from "../../../api";
 
 const Header = () => {
-    const [email, setEmail] = useState(null);
+    const [email, setEmail] = useState("");
+    const [photo, setPhoto] = useState("");
 
     useEffect(() => {
         api.get('/getUser').then(res => {
             if (res.status === 200) {
                 setEmail(res.data.email);
+                setPhoto(res.data.photo);
+                console.log(photo)
             }
         }).catch(e => {
 
         })
-    });
+    }, [email, photo]);
 
     return (
         <header className={css.Block}>
@@ -34,8 +37,10 @@ const Header = () => {
                 </NavLink>
             </div>
             <div className={css.Info}>
-                {email ? <h4>{email}</h4> : <h4>Login</h4>}
-                <div className={css.Avatar}></div>
+                {email ? <h4>{email}</h4> : <a href="/login">Login</a>}
+                <div className={css.Avatar}>
+                    <img src={photo} alt=""/>
+                </div>
                 <div className={css.Search}>
                     <img src={SearchIcon} alt=""/>
                 </div>

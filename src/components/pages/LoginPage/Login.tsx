@@ -14,6 +14,7 @@ const Login = () => {
         }).then(res => {
             if (res.status === 200) {
                 console.log('success');
+                window.location.href = "http://localhost:3000/";
             } else {
                 console.log(res.data);
             }
@@ -43,7 +44,7 @@ const Login = () => {
                     </input>
                 </div>
                 <section>
-                    <button>Login</button>
+                    <button type="submit">Login</button>
                 </section>
             </form>
         </section>
