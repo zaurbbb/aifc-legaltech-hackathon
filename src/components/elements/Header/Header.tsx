@@ -1,11 +1,24 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 
 import {NavLink} from "react-router-dom";
 
 import SearchIcon from "./SearchIcon.svg"
 import css from "./Header.module.sass"
+import api from "../../../api";
 
 const Header = () => {
+    const [email, setEmail] = useState(null);
+
+    useEffect(() => {
+        api.get('/getUser').then(res => {
+            if (res.status === 200) {
+                setEmail(res.data.email);
+            }
+        }).catch(e => {
+
+        })
+    });
+
     return (
         <header className={css.Block}>
             <div className={css.Hamburger}>h</div>
@@ -21,7 +34,7 @@ const Header = () => {
                 </NavLink>
             </div>
             <div className={css.Info}>
-                <h4>Berdibekov Zaur</h4>
+                {email ? <h4>{email}</h4> : <h4>Login</h4>}
                 <div className={css.Avatar}></div>
                 <div className={css.Search}>
                     <img src={SearchIcon} alt=""/>
