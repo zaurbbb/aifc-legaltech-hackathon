@@ -7,7 +7,6 @@ import css from "./CreateMeeting.module.sass";
 const CreateMeeting = () => {
     return (
         <section className={css.Block}>
-
             <div className={css.createForm}>
                 <h4>
                     Create a meeting
@@ -94,11 +93,19 @@ const CreateMeeting = () => {
                 <h4>
                     Прикрепленные документы:
                 </h4>
+                <br/>
+                <div className={css.ImgFiles}>
+                    <img src={files} alt="pdf file"/>
+                    <img src={files} alt="pdf file"/>
+                    <img src={files} alt="pdf file"/>
+                    <img src={files} alt="pdf file"/>
+                    <img src={files} alt="pdf file"/>
+                    <img src={files} alt="pdf file"/>
+                </div>
+                <br/><br/><br/>
                 <div>
-                    <img src={files} alt=""/>
-                    <img src={files} alt=""/>
-                    <img src={files} alt=""/>
-                    <img src={files} alt=""/>
+                    <button style={{color: 'red'}}>Сброс</button>
+                    <button style={{color: '#2C7CD9'}}>Создать</button>
                 </div>
             </div>
         </section>
