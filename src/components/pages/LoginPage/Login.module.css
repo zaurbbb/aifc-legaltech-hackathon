@@ -1,0 +1,75 @@
+.Block {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  background: #D0E4F2;
+  border-radius: 80px;
+  border: none;
+  padding: 1.8rem;
+  width: 40%;
+}
+.Block h4 {
+  background: #D9D9D9;
+  border-radius: 24px 24px 0 0;
+  padding: 0.5rem 2rem;
+  font-family: "EuclidCircularARegular", sans-serif;
+  font-weight: 500;
+}
+.Block div {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.Block form {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  width: 100%;
+  padding: 1rem;
+}
+.Block form div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-content: flex-start;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.Block form label {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.8rem;
+  line-height: 15px;
+  color: #828282;
+}
+.Block form input {
+  border: 3px solid #D0D0D0 !important;
+  border-radius: 8px;
+  height: 2rem;
+  font-size: 0.8rem;
+  margin-bottom: 15px;
+  width: 100%;
+}
+.Block form input::placeholder {
+  padding: 0;
+}
+.Block form button {
+  background: #FFFEFE;
+  border-radius: 50px;
+  padding: 0.5rem 1rem;
+  border: none;
+  margin: 0.5rem 0.4rem;
+  font-size: 0.5rem;
+  float: right;
+  font-family: "EuclidCircularARegular", sans-serif;
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=Login.module.css.map */

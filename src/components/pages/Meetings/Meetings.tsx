@@ -1,38 +1,75 @@
 import React from 'react';
 
+import calendarImg from "./img/calendarImg.svg"
+
 import css from "./Meetings.module.sass"
-import {NavLink} from "react-router-dom";
+
+import Rectangle1 from './img/Rectangle 127.svg'
+import Rectangle2 from './img/Rectangle 132.svg'
+import Ellipse1 from './img/Ellipse 12.svg'
 
 const Meetings = () => {
     return (
-            <section className={css.Block}>
-                <div className={css.CardsBlock}>
+        <section className={css.Block}>
+            <div className={css.CardsCollection}>
+                <div className={css.Card}>
                     <div>
-                        <button className={css.WhiteButton}>Current</button>
-                        <h3>Meeting on the choice of the development program for the company LLP "XXX"</h3>
-                        <h5>Место проведения / Ссылка</h5>
-                        <button className={css.NextButton}>Go to the page</button>
+                        <img src={Rectangle1} alt="avatar of work"/>
                     </div>
                     <div>
-                        <button className={css.RedButton}>20.09</button>
-                        <button className={css.RedButton}>Извещение</button>
-                        <h3>Meeting of the Board of Directors of LLP “XXX”</h3>
-                        <button className={css.NextButton}>Go to the page</button>
+                        <h4>
+                            Berdibekov Zaur
+                        </h4>
+                        <h5>
+                            <img src={Ellipse1} alt="green ellipse"/>
+                            In work
+                        </h5>
                     </div>
                     <div>
-                        <button className={css.RedButton}>Protocol</button>
-                        <button className={css.RedButton}>Not approved</button>
-                        <h3>Restructuring of LLP “XXX” processes</h3>
-                        <button className={css.NextButton}>Go to the page</button>
-                    </div>
-                    <div>
-                        <button className={css.WhiteButton}>Current</button>
-                        <h3>In-person meeting on the choice of the development program for the company LLP "XXX"</h3>
-                        <h5>Место проведения / Ссылка</h5>
-                        <button className={css.NextButton}>Go to the page</button>
+                        <h4>Accept the plan for increasing Director's salary</h4>
+                        <h5>Deadline: 03.10.2022</h5>
                     </div>
                 </div>
-                <NavLink to="/createMeeting" className={css.createButton}>Create a Meeting</NavLink>
+                <div className={css.Card}>
+                    <div>
+                        <img src={Rectangle1} alt="avatar of work"/>
+                    </div>
+                    <div>
+                        <h4>
+                            Berdibekov Zaur
+                        </h4>
+                        <h5>
+                            <img src={Ellipse1} alt="green ellipse"/>
+                            In work
+                        </h5>
+                    </div>
+                    <div>
+                        <h4>Accept the plan for increasing Director's salary</h4>
+                        <h5>Deadline: 03.10.2022</h5>
+                    </div>
+                </div>
+                <div className={css.Card}>
+                    <div>
+                        <img src={Rectangle1} alt="avatar of work"/>
+                    </div>
+                    <div>
+                        <h4>
+                            Berdibekov Zaur
+                        </h4>
+                        <h5>
+                            <img src={Ellipse1} alt="green ellipse"/>
+                            In work
+                        </h5>
+                    </div>
+                    <div>
+                        <h4>Accept the plan for increasing Director's salary</h4>
+                        <h5>Deadline: 03.10.2022</h5>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img src={calendarImg} alt="calendar"/>
+            </div>
         </section>
     );
 };

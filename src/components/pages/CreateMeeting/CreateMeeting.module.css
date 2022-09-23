@@ -59,6 +59,18 @@
 .createForm form input::placeholder {
   padding: 0;
 }
+.createForm form button {
+  border: 3px solid #D0D0D0 !important;
+  border-radius: 8px;
+  height: 2rem;
+  color: black;
+  padding-left: 45px;
+  font-size: 0.8rem;
+  margin-bottom: 15px;
+}
+.createForm form button::placeholder {
+  padding: 0;
+}
 
 .additionalInfo {
   width: 50%;
