@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/aifc-legaltech-hackathon/static/css/main.21bb10c1.css",
+    "main.js": "/aifc-legaltech-hackathon/static/js/main.fe561163.js",
+    "static/media/calendarImg.svg": "/aifc-legaltech-hackathon/static/media/calendarImg.96d02fef03544d0a1f8cccb6b11bc991.svg",
+    "static/media/Euclid Circular A Italic.ttf": "/aifc-legaltech-hackathon/static/media/Euclid Circular A Italic.8a03b1582303832ce315.ttf",
+    "static/media/Euclid Circular A Medium Italic.ttf": "/aifc-legaltech-hackathon/static/media/Euclid Circular A Medium Italic.9f44747c04c2f9e18476.ttf",
+    "static/media/Euclid Circular A SemiBold Italic.ttf": "/aifc-legaltech-hackathon/static/media/Euclid Circular A SemiBold Italic.d195493a12f6eea2f1a7.ttf",
+    "static/media/Euclid Circular A Bold Italic.ttf": "/aifc-legaltech-hackathon/static/media/Euclid Circular A Bold Italic.8af56c0bf454b59cfb9f.ttf",
+    "static/media/Euclid Circular A Medium.ttf": "/aifc-legaltech-hackathon/static/media/Euclid Circular A Medium.a5befbfcb71cd093cc56.ttf",
+    "static/media/Euclid Circular A Regular.ttf": "/aifc-legaltech-hackathon/static/media/Euclid Circular A Regular.d54600880dc63db716f2.ttf",
+    "static/media/Euclid Circular A SemiBold.ttf": "/aifc-legaltech-hackathon/static/media/Euclid Circular A SemiBold.ae11344face2a74d2042.ttf",
+    "static/media/Euclid Circular A Light Italic.ttf": "/aifc-legaltech-hackathon/static/media/Euclid Circular A Light Italic.32ec96e0bdfbe8ab7fb7.ttf",
+    "static/media/Euclid Circular A Bold.ttf": "/aifc-legaltech-hackathon/static/media/Euclid Circular A Bold.b4788f2f8f64a74fe6d6.ttf",
+    "static/media/Euclid Circular A Light.ttf": "/aifc-legaltech-hackathon/static/media/Euclid Circular A Light.29f6c14f6218727ca4be.ttf",
+    "static/media/PersonImage.png": "/aifc-legaltech-hackathon/static/media/PersonImage.09926dcfb5d82c830279.png",
+    "static/media/Files.svg": "/aifc-legaltech-hackathon/static/media/Files.b32a0dd82c9d0b281af2e058928c2be3.svg",
+    "static/media/UnionIcon.svg": "/aifc-legaltech-hackathon/static/media/UnionIcon.96f17c9d0e9b80bbc988.svg",
+    "static/media/UserIcon.svg": "/aifc-legaltech-hackathon/static/media/UserIcon.8cc4c4b0b3952ce6ed1b.svg",
+    "static/media/DataIcon.svg": "/aifc-legaltech-hackathon/static/media/DataIcon.f9c6055f9bad4d96e452.svg",
+    "static/media/SearchIcon.svg": "/aifc-legaltech-hackathon/static/media/SearchIcon.c0e7f9f6f3184e7689f35e279cc655fa.svg",
+    "static/media/ArrowIcon.svg": "/aifc-legaltech-hackathon/static/media/ArrowIcon.476b534bafcb788227fa.svg",
+    "index.html": "/aifc-legaltech-hackathon/index.html",
+    "static/media/AttachFilesIcon.svg": "/aifc-legaltech-hackathon/static/media/AttachFilesIcon.5eb801336980ea5b864c.svg",
+    "static/media/BlockIcon.svg": "/aifc-legaltech-hackathon/static/media/BlockIcon.b87a0bc2b40736c483cc.svg",
+    "static/media/TimeIcon.svg": "/aifc-legaltech-hackathon/static/media/TimeIcon.c5e9fa95d714d33f5839.svg",
+    "static/media/Rectangle 127.svg": "/aifc-legaltech-hackathon/static/media/Rectangle 127.39d271f5fae5a6a62f26058d1ccfdfb8.svg",
+    "static/media/Ellipse 12.svg": "/aifc-legaltech-hackathon/static/media/Ellipse 12.7aefe315b6bf5c3ec77da163eb27a717.svg",
+    "main.21bb10c1.css.map": "/aifc-legaltech-hackathon/static/css/main.21bb10c1.css.map",
+    "main.fe561163.js.map": "/aifc-legaltech-hackathon/static/js/main.fe561163.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.21bb10c1.css",
+    "static/js/main.fe561163.js"
+  ]
+}
