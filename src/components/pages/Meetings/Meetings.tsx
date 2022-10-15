@@ -5,7 +5,6 @@ import calendarImg from "./img/calendarImg.svg"
 import css from "./Meetings.module.sass"
 
 import Rectangle1 from './img/Rectangle 127.svg'
-import Rectangle2 from './img/Rectangle 132.svg'
 import Ellipse1 from './img/Ellipse 12.svg'
 
 const Meetings = () => {
